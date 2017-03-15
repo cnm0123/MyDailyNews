@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My DailyNews</string>
+    <string name="app_zjtg">直接跳过</string>
+    <string name="name_null">null</string>
+    <string name="name_signin">登录</string>
+    <string name="name_signup">注册</string>
+</resources>

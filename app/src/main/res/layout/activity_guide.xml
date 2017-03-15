@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_guide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zmapp.mydailynews.GuideActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:contentDescription="@string/name_null"
+            android:id="@+id/iv1_guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/adware_style_default" />
+        <ImageView
+            android:contentDescription="@string/name_null"
+            android:id="@+id/iv2_guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/adware_style_default" />
+        <ImageView
+            android:contentDescription="@string/name_null"
+            android:id="@+id/iv3_guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/adware_style_default" />
+        <ImageView
+            android:contentDescription="@string/name_null"
+            android:id="@+id/iv4_guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/adware_style_default" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:textColor="@android:color/background_light"
+        android:padding="20dp"
+        android:textSize="15sp"
+        android:text="@string/app_zjtg" />
+</RelativeLayout>
